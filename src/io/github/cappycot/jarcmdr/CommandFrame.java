@@ -27,6 +27,7 @@ public class CommandFrame extends JFrame {
 	 * Create the frame.
 	 */
 	public CommandFrame() {
+		// General Frame Setup //
 		setIconImage(Toolkit
 				.getDefaultToolkit()
 				.getImage(
@@ -36,6 +37,7 @@ public class CommandFrame extends JFrame {
 		setBounds(100, 100, 400, 400);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+		// Text Input //
 		inputField = new JTextField();
 		inputField.setToolTipText("System.in");
 		getContentPane().add(inputField, BorderLayout.SOUTH);
