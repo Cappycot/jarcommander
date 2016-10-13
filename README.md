@@ -9,8 +9,7 @@ First Log: Okay, f*ckers! I finally got this to work in Eclipse, even with all t
  - Move the source code to the IDE of your choice.
  - Import the package's CommandFrame and activate it.
 
-'''java
-import io.github.cappycot.jarcmdr.CommandFrame;
+```import io.github.cappycot.jarcmdr.CommandFrame;
 
 public class Sample
 {
@@ -20,5 +19,5 @@ public class Sample
         /* Follow with your code here. */
     }
 }
-'''
+```
 
